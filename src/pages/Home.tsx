@@ -2,8 +2,8 @@ import { Link } from "react-router";
 import { ReelightPlayer } from "../player/ReelightPlayer";
 
 // Set VITE_MUX_PLAYBACK_ID in .env to switch from the local file to Mux.
-const mux = import.meta.env.VITE_MUX_PLAYBACKi_ID as string | undefined;
-console.log(import.meta.env);
+const mux = import.meta.env.VITE_MUX_PLAYBACK_ID as string | undefined;
+//console.log(import.meta.env);
 const SRC = mux
   ? `https://stream.mux.com/${mux}.m3u8/highest.mp4`
   : "/Build a Mindblowing 3D Portfolio Website __ Three.js Beginner_s Tutorial(480P)(1).mp4";
