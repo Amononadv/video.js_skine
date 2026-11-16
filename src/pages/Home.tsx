@@ -5,7 +5,7 @@ import { ReelightPlayer } from "../player/ReelightPlayer";
 const mux = import.meta.env.VITE_MUX_PLAYBACK_ID as string | undefined;
 //console.log(import.meta.env);
 const SRC = mux
-  ? `https://stream.mux.com/${mux}.m3u8/highest.mp4`
+  ? `https://stream.mux.com/${mux}.m3u8`
   : "/Build a Mindblowing 3D Portfolio Website __ Three.js Beginner_s Tutorial(480P)(1).mp4";
 
 export default function Home() {
