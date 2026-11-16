@@ -1,4 +1,3 @@
-import { Link } from "react-router";
 import { ReelightPlayer } from "../player/ReelightPlayer";
 
 // Set VITE_MUX_PLAYBACK_ID in .env to switch from the local file to Mux.
